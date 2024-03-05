@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T04:17:54.439Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="xihSiolZ4WGHot4C1Xvy" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T05:00:08.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="eFvCN5TdSMpDheKvtCrD" version="24.0.0" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="742" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="675" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,44 +25,72 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KWcfcOkvZnFMeTbMcnxo-22" value="&lt;div&gt;submit new Contract&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-21">
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-22" value="press Submit button" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KWcfcOkvZnFMeTbMcnxo-23" value="submitForm()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="130" width="255" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="KWcfcOkvZnFMeTbMcnxo-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KWcfcOkvZnFMeTbMcnxo-23" source="KWcfcOkvZnFMeTbMcnxo-25" target="KWcfcOkvZnFMeTbMcnxo-28">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="335" y="130" width="350" height="430" as="geometry" />
         </mxCell>
         <mxCell id="KWcfcOkvZnFMeTbMcnxo-25" value="S" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-23">
-          <mxGeometry x="89" y="20" width="22" height="20" as="geometry" />
+          <mxGeometry x="156.5" y="25" width="22" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KWcfcOkvZnFMeTbMcnxo-23" source="KWcfcOkvZnFMeTbMcnxo-25" target="KWcfcOkvZnFMeTbMcnxo-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="167.5" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-28" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;validateForm()&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-23">
+          <mxGeometry x="116.25" y="70" width="102.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-32" value="E" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-23">
+          <mxGeometry x="37.5" y="150" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="KWcfcOkvZnFMeTbMcnxo-23" source="KWcfcOkvZnFMeTbMcnxo-28" target="KWcfcOkvZnFMeTbMcnxo-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-31" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[ false = invalid ]&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KWcfcOkvZnFMeTbMcnxo-30">
+          <mxGeometry x="-0.12" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-45" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;{set all.checkbox = false}&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-23">
+          <mxGeometry x="107.5" y="210" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KWcfcOkvZnFMeTbMcnxo-23" source="KWcfcOkvZnFMeTbMcnxo-29" target="KWcfcOkvZnFMeTbMcnxo-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-29" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;ignoreCheckBox()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-23">
+          <mxGeometry x="107.5" y="190" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KWcfcOkvZnFMeTbMcnxo-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KWcfcOkvZnFMeTbMcnxo-23" source="KWcfcOkvZnFMeTbMcnxo-28" target="KWcfcOkvZnFMeTbMcnxo-29">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="205" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KWcfcOkvZnFMeTbMcnxo-27" value="[ valid ]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KWcfcOkvZnFMeTbMcnxo-26">
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-27" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[ true = valid ]&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KWcfcOkvZnFMeTbMcnxo-26">
           <mxGeometry x="-0.3391" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="38" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KWcfcOkvZnFMeTbMcnxo-28" value="&amp;nbsp;Valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-23">
-          <mxGeometry x="75" y="70" width="50" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KWcfcOkvZnFMeTbMcnxo-29" value="ignoreCheckBox()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-23">
-          <mxGeometry x="135" y="140" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KWcfcOkvZnFMeTbMcnxo-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="KWcfcOkvZnFMeTbMcnxo-23" source="KWcfcOkvZnFMeTbMcnxo-28" target="KWcfcOkvZnFMeTbMcnxo-32">
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KWcfcOkvZnFMeTbMcnxo-23" source="KWcfcOkvZnFMeTbMcnxo-46" target="KWcfcOkvZnFMeTbMcnxo-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KWcfcOkvZnFMeTbMcnxo-31" value="[ invalid ]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KWcfcOkvZnFMeTbMcnxo-30">
-          <mxGeometry x="-0.12" y="-3" relative="1" as="geometry">
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-54" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KWcfcOkvZnFMeTbMcnxo-50">
+          <mxGeometry x="-0.269" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KWcfcOkvZnFMeTbMcnxo-32" value="E" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-23">
-          <mxGeometry x="45" y="170" width="20" height="20" as="geometry" />
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-46" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;submit action?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-23">
+          <mxGeometry x="15" y="260" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-49" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;disabled all input&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-23">
+          <mxGeometry x="125" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-51" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;dataurl = form.serialize()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-23">
+          <mxGeometry x="125" y="320" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KWcfcOkvZnFMeTbMcnxo-52" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;$.post(frm.action, dataurl, data)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KWcfcOkvZnFMeTbMcnxo-23">
+          <mxGeometry x="125" y="360" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
