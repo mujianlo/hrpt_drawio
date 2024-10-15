@@ -147,10 +147,12 @@
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7PrB7ct33ou-kt_ilz-a-62">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="22" y="855" as="targetPoint" />
+            <mxPoint x="30" y="790" as="targetPoint" />
             <Array as="points">
               <mxPoint x="42" y="635" />
               <mxPoint x="42" y="735" />
+              <mxPoint x="30" y="735" />
+              <mxPoint x="30" y="790" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -191,12 +193,12 @@
           <mxGeometry x="264" y="685" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7PrB7ct33ou-kt_ilz-a-78" value="&lt;div&gt;1) get StaffNo from Access Token&lt;/div&gt;&lt;div&gt;2) retrieve contract list from database&lt;/div&gt;&lt;div&gt;3) &lt;span style=&quot;background-color: rgb(150, 216, 152);&quot;&gt;encrypt the resultset&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(150, 216, 152);&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; using AES (Project SecureKey + IV)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3) and return encrypted resultset &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="599" y="735" width="210" height="70" as="geometry" />
+          <mxGeometry x="600" y="766" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7PrB7ct33ou-kt_ilz-a-79" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=horizontal;rounded=0;fontSize=10;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="254" y="815" as="targetPoint" />
-            <mxPoint x="574" y="815" as="sourcePoint" />
+            <mxPoint x="255.25" y="760" as="targetPoint" />
+            <mxPoint x="571.75" y="760" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7PrB7ct33ou-kt_ilz-a-82" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=elbowEdgeStyle;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" target="es4zuGhlTcDtU3RGPdiZ-48" edge="1">
@@ -209,7 +211,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7PrB7ct33ou-kt_ilz-a-85" value="&lt;b&gt;3)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="52" y="685" width="30" height="30" as="geometry" />
+          <mxGeometry x="55" y="685" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7PrB7ct33ou-kt_ilz-a-86" value="get User Contract List" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontStyle=1;fontColor=#3333FF;" parent="1" vertex="1">
           <mxGeometry x="90" y="685" width="120" height="30" as="geometry" />
@@ -220,10 +222,11 @@
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=1;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="589" y="715" as="sourcePoint" />
-            <mxPoint x="591" y="815" as="targetPoint" />
+            <mxPoint x="590" y="760" as="targetPoint" />
             <Array as="points">
               <mxPoint x="810" y="715" />
-              <mxPoint x="810" y="815" />
+              <mxPoint x="810" y="760" />
+              <mxPoint x="591" y="760" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -268,7 +271,7 @@
           <mxGeometry x="21.5" y="440" width="180.5" height="45" as="geometry" />
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-43" value="&lt;div&gt;return Encrypted Resultset&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="305.5" y="780" width="217" height="25" as="geometry" />
+          <mxGeometry x="290" y="733" width="217" height="22" as="geometry" />
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-46" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="es4zuGhlTcDtU3RGPdiZ-44" target="es4zuGhlTcDtU3RGPdiZ-48">
           <mxGeometry relative="1" as="geometry">
@@ -276,16 +279,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-44" value="&lt;div&gt;received encrypted resultset&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="42" y="770" width="160" height="45" as="geometry" />
+          <mxGeometry x="50" y="741" width="152" height="25" as="geometry" />
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-45" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="231" y="815" as="sourcePoint" />
-            <mxPoint x="202" y="815.5" as="targetPoint" />
+            <mxPoint x="229" y="760" as="sourcePoint" />
+            <mxPoint x="200" y="760.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="es4zuGhlTcDtU3RGPdiZ-48" value="&lt;div&gt;RSA decryption&lt;/div&gt;&lt;div&gt;(Project SecureKey + AES IV) &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#82b366;align=left;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="50" y="845" width="142" height="26" as="geometry" />
+        <mxCell id="es4zuGhlTcDtU3RGPdiZ-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="es4zuGhlTcDtU3RGPdiZ-48" target="es4zuGhlTcDtU3RGPdiZ-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es4zuGhlTcDtU3RGPdiZ-48" value="&lt;div&gt;RSA decryption&lt;/div&gt;&lt;div&gt;(Project SecureKey + AES IV) &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#82b366;align=center;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="50" y="788" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-66" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="235" y="915" width="10" height="220" as="geometry" />
@@ -295,8 +301,8 @@
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-68" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;fontSize=10;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="85" y="945" as="sourcePoint" />
-            <mxPoint x="225" y="945" as="targetPoint" />
+            <mxPoint x="82.13" y="945" as="sourcePoint" />
+            <mxPoint x="222.13" y="945" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-69" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;edgeStyle=elbowEdgeStyle;fontSize=10;" edge="1" parent="1">
@@ -309,67 +315,81 @@
           <mxGeometry x="264" y="915" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-71" value="&lt;div&gt;1) get StaffNo from Access Token&lt;/div&gt;&lt;div&gt;2) get slipdate from querystring.&lt;/div&gt;&lt;div&gt;3) retrieve salary slipi from database&lt;/div&gt;&lt;div&gt;4) &lt;span style=&quot;background-color: rgb(150, 216, 152);&quot;&gt;encrypt the resultset&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(150, 216, 152);&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; using AES (Project SecureKey + IV)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5) and return encrypted resultset &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="600" y="955" width="210" height="90" as="geometry" />
+          <mxGeometry x="600" y="990" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-72" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=horizontal;rounded=0;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="245" y="1045" as="targetPoint" />
-            <mxPoint x="565" y="1045" as="sourcePoint" />
+            <mxPoint x="245" y="990" as="targetPoint" />
+            <mxPoint x="565" y="990" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-73" value="&lt;b&gt;4)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="915" width="30" height="30" as="geometry" />
+          <mxGeometry x="50" y="920" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-74" value="get a Salary Slip" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontStyle=1;fontColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="95" y="915" width="100" height="30" as="geometry" />
+          <mxGeometry x="90" y="920" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=1;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="945" as="sourcePoint" />
-            <mxPoint x="592" y="1045" as="targetPoint" />
+            <mxPoint x="600" y="990" as="targetPoint" />
             <Array as="points">
               <mxPoint x="811" y="945" />
-              <mxPoint x="811" y="1045" />
+              <mxPoint x="811" y="990" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-76" value="&lt;div&gt;return Encrypted Resultset&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="305.5" y="1015" width="217" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="es4zuGhlTcDtU3RGPdiZ-77" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="es4zuGhlTcDtU3RGPdiZ-78">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="122" y="1095" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="es4zuGhlTcDtU3RGPdiZ-78" value="&lt;div&gt;received encrypted resultset&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="42" y="1025" width="160" height="45" as="geometry" />
+          <mxGeometry x="305" y="967.5" width="217" height="17.5" as="geometry" />
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-79" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="231" y="1047" as="sourcePoint" />
-            <mxPoint x="202" y="1047.5" as="targetPoint" />
+            <mxPoint x="231" y="990" as="sourcePoint" />
+            <mxPoint x="202" y="990.5" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="es4zuGhlTcDtU3RGPdiZ-80" value="&lt;div&gt;RSA decryption&lt;/div&gt;&lt;div&gt;(Project SecureKey + AES IV) &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#82b366;align=left;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="55" y="1095" width="142" height="26" as="geometry" />
         </mxCell>
         <mxCell id="es4zuGhlTcDtU3RGPdiZ-82" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=elbowEdgeStyle;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="12" y="870" as="sourcePoint" />
-            <mxPoint x="50" y="1110" as="targetPoint" />
+            <mxPoint x="12" y="800" as="sourcePoint" />
+            <mxPoint x="50" y="1040" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="12" y="1040" />
+              <mxPoint x="12" y="970" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="es4zuGhlTcDtU3RGPdiZ-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" edge="1" parent="1">
+        <mxCell id="es4zuGhlTcDtU3RGPdiZ-84" value="Resultset" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="50" y="840" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="es4zuGhlTcDtU3RGPdiZ-88" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="es4zuGhlTcDtU3RGPdiZ-94" target="es4zuGhlTcDtU3RGPdiZ-92">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="22" y="880" as="sourcePoint" />
-            <mxPoint x="23.5" y="1095" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="22" y="975" />
-              <mxPoint x="24" y="975" />
-            </Array>
+            <mxPoint x="123" y="1022.5" as="targetPoint" />
+            <mxPoint x="124.27536231884051" y="1000.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es4zuGhlTcDtU3RGPdiZ-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="es4zuGhlTcDtU3RGPdiZ-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="123" y="1048.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es4zuGhlTcDtU3RGPdiZ-91" value="Resultset" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1074.5" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="es4zuGhlTcDtU3RGPdiZ-92" value="&lt;div&gt;RSA decryption&lt;/div&gt;&lt;div&gt;(Project SecureKey + AES IV) &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#82b366;align=left;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1022" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="es4zuGhlTcDtU3RGPdiZ-94" value="&lt;div&gt;received encrypted resultset&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="50" y="970" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="es4zuGhlTcDtU3RGPdiZ-95" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="820" as="sourcePoint" />
+            <mxPoint x="30" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es4zuGhlTcDtU3RGPdiZ-96" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=12 12;fillColor=#e1d5e7;strokeColor=#c0c0c0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="905" as="sourcePoint" />
+            <mxPoint x="810" y="905" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
