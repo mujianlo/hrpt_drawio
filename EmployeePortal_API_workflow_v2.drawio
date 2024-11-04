@@ -10,49 +10,49 @@
         <mxCell id="wkhEWi-QwthmWmKcWgNR-2" value="" style="line;strokeWidth=2;direction=south;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="609" y="85" width="20" height="1065" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-5" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;Mobile App Server&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-5" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Mobile App Server&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=13;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="119" y="45" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-6" value="EP API" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-6" value="EP API" style="text;strokeColor=none;fillColor=none;html=1;fontSize=13;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="539" y="40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-9" value="1. Project Start" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-9" value="1. Project Start" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="19" y="105" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-10" value="AES Key in our local file (e.g. config file)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-10" value="AES Key in our local file (e.g. config file)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="139" y="105" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wkhEWi-QwthmWmKcWgNR-13" value="" style="line;strokeWidth=1;html=1;dashed=1;dashPattern=12 12;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="8" y="155" width="810" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-14" value="2. Session" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-14" value="2. Session" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="19" y="205" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-15" value="Session ID (Changes Periodically, e.g., Daily)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-15" value="Session ID (Changes Periodically, e.g., Daily)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="139" y="205" width="600" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-20" value="2.3. Return RSA Public Key" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-20" value="2.3. Return RSA Public Key" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="449" y="325" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-22" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="wkhEWi-QwthmWmKcWgNR-24" edge="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-22" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="1" target="wkhEWi-QwthmWmKcWgNR-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="217" y="285" as="sourcePoint" />
             <mxPoint x="649" y="285" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-23" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-23" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;fontSize=13;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="609" y="353.75" as="sourcePoint" />
             <mxPoint x="179" y="354" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-24" value="2.2. Generate RSA PublicKey, PrivateKey, Token and " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-24" value="2.2. Generate RSA PublicKey, PrivateKey, Token and " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="639" y="255" width="169" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-25" value="2.1. Generate Session Id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-25" value="2.1. Generate Session Id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="199" y="255" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-26" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="wkhEWi-QwthmWmKcWgNR-24" edge="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-26" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;fontSize=13;" parent="1" source="wkhEWi-QwthmWmKcWgNR-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="619" y="363.75" as="sourcePoint" />
             <mxPoint x="659" y="345" as="targetPoint" />
@@ -64,34 +64,34 @@
         <mxCell id="wkhEWi-QwthmWmKcWgNR-27" value="" style="line;strokeWidth=1;html=1;dashed=1;dashPattern=12 12;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="8" y="385" width="810" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-28" value="3. User Login" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-28" value="3. User Login" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="18" y="440" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-29" value="Staff Session ID (One Staff No. per Session)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-29" value="Staff Session ID (One Staff No. per Session)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="160" y="440" width="560" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-30" value="3.3 Return Staff Session Id, Encrypted Access Token and AES IV" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-30" value="3.3 Return Staff Session Id, Encrypted Access Token and AES IV" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="249" y="585" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-31" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-31" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;fontSize=13;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="216" y="525" as="sourcePoint" />
             <mxPoint x="639" y="525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-32" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-32" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;fontSize=13;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="607" y="615" as="sourcePoint" />
             <mxPoint x="179" y="615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-33" value="&lt;div&gt;3.2&amp;nbsp;&lt;/div&gt;&lt;div&gt;a. verify the StaffNo&lt;/div&gt;&lt;div&gt;b. Decrypt the encrypted Staff No.&amp;nbsp;&amp;nbsp; using RSA Private Key&lt;/div&gt;&lt;div&gt;c . Create an Access Token and do encryption&lt;/div&gt;&lt;div&gt;d. Generate AES IV&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-33" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;3.2&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;a. verify the StaffNo&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;b. Decrypt the encrypted Staff No.&amp;nbsp;&amp;nbsp; using RSA Private Key&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;c . Create an Access Token and do encryption&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;d. Generate AES IV&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="637" y="485" width="181" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-34" value="&lt;div&gt;3.1. Request User Login with parameters&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; params) Encrypted Staff No. using RSA Public Key&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="209" y="495" width="280" height="70" as="geometry" />
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-34" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;3.1. Request User Login with parameters&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; params) Encrypted Staff No. using RSA Public Key&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="209" y="495" width="381" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-35" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-35" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;edgeStyle=orthogonalEdgeStyle;fontSize=13;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="729" y="605" as="sourcePoint" />
             <mxPoint x="639" y="615" as="targetPoint" />
@@ -103,28 +103,28 @@
         <mxCell id="wkhEWi-QwthmWmKcWgNR-36" value="" style="line;strokeWidth=1;html=1;dashed=1;dashPattern=12 12;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="9" y="655" width="810" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-37" value="4. Salary Advice / Tax " style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-37" value="4. Salary Advice / Tax " style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="18" y="775" width="131" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-39" value="4.3 Return Encrypted data (provide Staff Session Id instead of actual StaffNo)" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="219" y="865" width="389" height="30" as="geometry" />
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-39" value="4.3 Return Encrypted data (provide Staff Session Id instead of actual StaffNo)" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="190.5" y="865" width="428" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-40" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-40" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;fontSize=13;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="215" y="805" as="sourcePoint" />
             <mxPoint x="638" y="805" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-41" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-41" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;fontSize=13;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="606" y="895" as="sourcePoint" />
             <mxPoint x="178" y="895" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-42" value="&lt;div&gt;4.1. Request form submittion&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; params) Staff Session Id, Encrypted Params, Encrypted Access Token&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-42" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;4.1. Request form submittion&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; params) Staff Session Id, Encrypted Params, Encrypted Access Token&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="208" y="775" width="391" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-43" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-43" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;fontSize=13;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="728" y="875" as="sourcePoint" />
             <mxPoint x="638" y="895" as="targetPoint" />
@@ -133,31 +133,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-44" value="4.2&lt;br&gt;&lt;div&gt;a.Verify the Staff Session Id &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp; and Access Token&lt;/div&gt;&lt;div&gt;b. Decrypt the Encrypted Params&lt;br&gt;&lt;/div&gt;&lt;div&gt;c. Retrieve data from databaase&lt;/div&gt;&lt;div&gt;d. Encrypt the data&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-44" value="4.2&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;a.Verify the Staff Session Id &lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp; and Access Token&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;b. Decrypt the Encrypted Params&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;c. Retrieve data from databaase&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;d. Encrypt the data&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="638" y="760" width="181" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-45" value="We use Staff Session ID &amp;amp; Access Token to communicate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-45" value="We use Staff Session ID &amp;amp; Access Token to communicate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="169" y="715" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wkhEWi-QwthmWmKcWgNR-46" value="" style="line;strokeWidth=1;html=1;dashed=1;dashPattern=12 12;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="7" y="930" width="810" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-47" value="5. [Optional] User Logout" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="19" y="1020" width="131" height="30" as="geometry" />
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-47" value="5. [Optional] User Logout" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="19" y="1020" width="151" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-55" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;" parent="1" edge="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-55" value="" style="endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;fontSize=13;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="216" y="1035" as="sourcePoint" />
             <mxPoint x="639" y="1035" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-56" value="&lt;div&gt;5.1. Request form submittion&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; params) Staff Session Id, Encrypted Access Token&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-56" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;5.1. Request form submittion&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; params) Staff Session Id, Encrypted Access Token&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="209" y="1005" width="391" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-57" value="5.2&lt;br&gt;&lt;div&gt;a.Verify the Staff Session Id &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp; and Access Token&lt;/div&gt;&lt;div&gt;b. Remove&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-57" value="5.2&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;a.Verify the Staff Session Id &lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp; and Access Token&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;b. Remove&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="639" y="990" width="181" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5E_7HwGN0i47pE6giLOe-1" value="We use Staff Session ID &amp;amp; Access Token to communicate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="5E_7HwGN0i47pE6giLOe-1" value="We use Staff Session ID &amp;amp; Access Token to communicate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="169" y="960" width="520" height="30" as="geometry" />
         </mxCell>
       </root>
