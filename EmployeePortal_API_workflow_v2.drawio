@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.3">
   <diagram id="zGAoGrk16XHBV45AZ5aZ" name="Page-2">
-    <mxGraphModel dx="1409" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
             <mxPoint x="179" y="354" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-24" value="2.2. Generate RSA PublicKey, PrivateKey, Token and " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-24" value="2.2. Generate RSA PublicKey, PrivateKey, Token&amp;nbsp; " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="639" y="255" width="169" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wkhEWi-QwthmWmKcWgNR-25" value="2.1. Generate Session Id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
@@ -85,8 +85,8 @@
             <mxPoint x="179" y="615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wkhEWi-QwthmWmKcWgNR-33" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;3.2&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;a. verify the StaffNo&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;b. Decrypt the encrypted Staff No.&amp;nbsp;&amp;nbsp; using RSA Private Key&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;c . Create an Access Token and do AES encryption&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;d. Generate AES IV&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="637" y="485" width="181" height="100" as="geometry" />
+        <mxCell id="wkhEWi-QwthmWmKcWgNR-33" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;3.2&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;a. verify the StaffNo&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;b. Decrypt the encrypted Staff No. using RSA Private Key&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;c . Create an Access Token and perform AES encryption&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;d. Generate AES IV&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="637" y="485" width="181" height="125" as="geometry" />
         </mxCell>
         <mxCell id="wkhEWi-QwthmWmKcWgNR-34" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;3.1. Request User Login with parameters&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; params) Encrypted Staff No. using RSA Public Key&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="209" y="495" width="381" height="70" as="geometry" />
@@ -157,7 +157,7 @@
         <mxCell id="wkhEWi-QwthmWmKcWgNR-57" value="5.2&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;a.Verify the Staff Session Id &lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp; and Access Token&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;b. Remove&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="639" y="990" width="181" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5E_7HwGN0i47pE6giLOe-1" value="We use Staff Session ID &amp;amp; Access Token to communicate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="5E_7HwGN0i47pE6giLOe-1" value="We use Staff Session ID &amp;amp; Access Token to communicate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="169" y="960" width="520" height="30" as="geometry" />
         </mxCell>
       </root>
