@@ -1,0 +1,135 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.6">
+  <diagram name="Page-1" id="JtFmxGmH7LqSwBIJlnBk">
+    <mxGraphModel dx="1842" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-1" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="voiBGSHmqf0EiJ-3mY0Y-2" target="voiBGSHmqf0EiJ-3mY0Y-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-2" value="&lt;div&gt;Contract - Save&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="117.5" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-3" value="Yes -&amp;nbsp;(create_tx_real)" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="voiBGSHmqf0EiJ-3mY0Y-5" target="voiBGSHmqf0EiJ-3mY0Y-12">
+          <mxGeometry y="60" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="177.5" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-4" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="voiBGSHmqf0EiJ-3mY0Y-5" target="voiBGSHmqf0EiJ-3mY0Y-6">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-5" value="Is&amp;nbsp;&lt;br&gt;new contract ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="90" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-7" value="&lt;div&gt;Parm (StaffNo)&lt;/div&gt;" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="voiBGSHmqf0EiJ-3mY0Y-11" target="voiBGSHmqf0EiJ-3mY0Y-8">
+          <mxGeometry y="60" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="177.5" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-8" value="** RETURN: 1 record only&lt;br&gt;select hr_pt_emp.*&amp;nbsp;&lt;br&gt;from hr_pt_emp join hr_ptcntr&lt;br&gt;&lt;div&gt;where pte_stfno = p_stfno&amp;nbsp;&lt;br&gt;and pte_terminate = &#39;N&#39;;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-9" value="parm(pct_stfno)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-10" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="voiBGSHmqf0EiJ-3mY0Y-12" target="voiBGSHmqf0EiJ-3mY0Y-11">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="177.5" y="320" as="sourcePoint" />
+            <mxPoint x="177.5" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-11" value="pkg_emp.&lt;br&gt;get_cur_emp()&lt;br&gt;is parm StaffNo or CntrNo ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="280" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-12" value="call pkg_emp.get_cur_emp (&lt;br&gt;parm: pct_stfno )" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="210" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-13" value="Parm (CntrNo)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="voiBGSHmqf0EiJ-3mY0Y-11">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="307.5" y="330" as="sourcePoint" />
+            <mxPoint x="377.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-14" value="** RETURN: 1 record only&lt;br&gt;select hr_pt_emp.*&amp;nbsp;&lt;br&gt;from hr_pt_emp join hr_ptcntr&lt;br&gt;&lt;div&gt;where pte_cntrno = p_cntrno&amp;nbsp;&lt;br&gt;and pte_terminate = &#39;N&#39;;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="280" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-15" value="Is hr_pt_emp record exist?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="510" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-16" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="voiBGSHmqf0EiJ-3mY0Y-8" target="voiBGSHmqf0EiJ-3mY0Y-15">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="317.5" y="570" as="sourcePoint" />
+            <mxPoint x="317.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-17" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="voiBGSHmqf0EiJ-3mY0Y-20">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="242.5" y="559.5" as="sourcePoint" />
+            <mxPoint x="362.5" y="559.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-18" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="voiBGSHmqf0EiJ-3mY0Y-15" target="voiBGSHmqf0EiJ-3mY0Y-19">
+          <mxGeometry x="-0.149" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="277.5" y="590" as="sourcePoint" />
+            <mxPoint x="177.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-19" value="update hr_pt_emp&lt;br&gt;set pte_active_cntr =+ 1&lt;br&gt;where pte_emp_no = p_emp_no" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="630" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-20" value="v_rec_emp := extract_rec_emp(v_rec_cntr)&lt;br&gt;pkg_emp.add(v_rec_emp,&amp;nbsp;&lt;br&gt;OUT pte_emp_no)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="530" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-21" value="insert hr_ptcntr ()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="720" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-22" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="voiBGSHmqf0EiJ-3mY0Y-20" target="voiBGSHmqf0EiJ-3mY0Y-21">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="477.5" y="770" as="sourcePoint" />
+            <mxPoint x="477.5" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-23" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="voiBGSHmqf0EiJ-3mY0Y-19" target="voiBGSHmqf0EiJ-3mY0Y-21">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="217.5" y="590" as="sourcePoint" />
+            <mxPoint x="217.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-24" value="&lt;div&gt;&lt;b&gt;**&amp;nbsp; Re-generate the employment period&lt;/b&gt;&lt;br&gt;pkg_emp.regen_emp_period&amp;nbsp;&lt;/div&gt;&lt;div&gt;(&amp;nbsp;cntrNo )&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="830" width="235" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-25" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="voiBGSHmqf0EiJ-3mY0Y-21" target="voiBGSHmqf0EiJ-3mY0Y-24">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="637.5" y="890" as="sourcePoint" />
+            <mxPoint x="467.5" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-26" value="&lt;div&gt;End&lt;/div&gt;&lt;div&gt;&amp;nbsp;(create_tx_real)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="117.5" y="930" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="voiBGSHmqf0EiJ-3mY0Y-27" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="voiBGSHmqf0EiJ-3mY0Y-24" target="voiBGSHmqf0EiJ-3mY0Y-26">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="297.5" y="940" as="sourcePoint" />
+            <mxPoint x="297.5" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
