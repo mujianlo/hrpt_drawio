@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.8">
+  <diagram name="Page-1" id="OJjdfF9yD0vop049x9oS">
+    <mxGraphModel dx="1474" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jRyY5E1i1GUEKQkVReT4-1" value="Oracle 19c" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="300" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="jRyY5E1i1GUEKQkVReT4-8" value="&lt;font&gt;Unit of Work&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;verticalAlign=top;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="440" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="jRyY5E1i1GUEKQkVReT4-16" value="&lt;font&gt;dbContext&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="820" y="340" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jRyY5E1i1GUEKQkVReT4-18" value="" style="group;fontSize=14;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="520" y="120" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jRyY5E1i1GUEKQkVReT4-17" value="IRepository" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;verticalAlign=top;" vertex="1" parent="jRyY5E1i1GUEKQkVReT4-18">
+          <mxGeometry width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jRyY5E1i1GUEKQkVReT4-15" value="" style="group;fontSize=14;" vertex="1" connectable="0" parent="jRyY5E1i1GUEKQkVReT4-18">
+          <mxGeometry x="40" y="60" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jRyY5E1i1GUEKQkVReT4-4" value="Repository" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="jRyY5E1i1GUEKQkVReT4-15">
+          <mxGeometry width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jRyY5E1i1GUEKQkVReT4-9" value="Repository" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="jRyY5E1i1GUEKQkVReT4-15">
+          <mxGeometry y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jRyY5E1i1GUEKQkVReT4-10" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="jRyY5E1i1GUEKQkVReT4-15">
+          <mxGeometry y="100" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jRyY5E1i1GUEKQkVReT4-19" value="&lt;div&gt;Command&lt;/div&gt;(Insert/Update/Delete)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jRyY5E1i1GUEKQkVReT4-20" value="&lt;div&gt;Query&lt;/div&gt;&lt;div&gt;(Read only)&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="250" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
