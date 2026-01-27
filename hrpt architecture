@@ -406,7 +406,7 @@
           <mxGeometry height="50" width="92.5" x="195" y="750" as="geometry" />
         </mxCell>
         <mxCell id="XUY3io9CYWyl4TCLHsnt-61" parent="qSSSFoyWs5jdamatVOIf-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DisplayNameFor" vertex="1">
-          <mxGeometry height="50" width="92.5" x="147.5" y="640" as="geometry" />
+          <mxGeometry height="50" width="92.5" x="143.5" y="640" as="geometry" />
         </mxCell>
         <mxCell id="XUY3io9CYWyl4TCLHsnt-63" connectable="0" parent="qSSSFoyWs5jdamatVOIf-1" style="group" value="" vertex="1">
           <mxGeometry height="192" width="290" x="220" y="398" as="geometry" />
