@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.4" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.6" pages="3">
   <diagram name="Page-1" id="OJjdfF9yD0vop049x9oS">
     <mxGraphModel dx="1300" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -505,6 +505,26 @@
             <mxPoint x="490" y="400" as="sourcePoint" />
             <mxPoint x="700" y="525" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="G3loxr6I4gDwayzg3jtU" name="KCUser Login -&gt; Select">
+    <mxGraphModel dx="869" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wMcebMey2KmH7g5FY2MF-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="Login" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="wMcebMey2KmH7g5FY2MF-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" value="ICurrentUser" vertex="1">
+          <mxGeometry height="200" width="160" x="120" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="wMcebMey2KmH7g5FY2MF-4" parent="wMcebMey2KmH7g5FY2MF-3" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=top;rounded=0;fontSize=14;" value="&lt;div&gt;KC Login&lt;/div&gt;&lt;div&gt;Staff No&lt;/div&gt;&lt;div&gt;Staff Name&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112.5" width="120" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wMcebMey2KmH7g5FY2MF-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;div&gt;Select&lt;/div&gt;&lt;div&gt;Centre Roles&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
