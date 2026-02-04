@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.6" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.6" pages="4">
   <diagram name="Page-1" id="OJjdfF9yD0vop049x9oS">
     <mxGraphModel dx="1300" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -525,6 +525,104 @@
         </mxCell>
         <mxCell id="wMcebMey2KmH7g5FY2MF-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;div&gt;Select&lt;/div&gt;&lt;div&gt;Centre Roles&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="360" y="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zr_SF14RR-hIB51V9Uyc" name="git workflow">
+    <mxGraphModel dx="1417" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zk757PVJUXh3gqD9kdrg-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;fontStyle=1" value="master" vertex="1">
+          <mxGeometry height="750" width="100" x="1040" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-35" parent="zk757PVJUXh3gqD9kdrg-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="370" width="10" x="45" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;fontStyle=1" value="develop" vertex="1">
+          <mxGeometry height="750" width="100" x="890" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-10" parent="zk757PVJUXh3gqD9kdrg-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;" value="" vertex="1">
+          <mxGeometry height="570" width="10" x="45" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;fontStyle=1;size=40;" value="&lt;div&gt;feature/{taskname]&lt;/div&gt;e.g. feature/bankform" vertex="1">
+          <mxGeometry height="470" width="140" x="600" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-24" parent="zk757PVJUXh3gqD9kdrg-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="220" width="10" x="65" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;fontStyle=1" value="work/{name}&lt;br&gt;e.g. work/david" vertex="1">
+          <mxGeometry height="560" width="120" x="290" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-18" parent="zk757PVJUXh3gqD9kdrg-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="320" width="10" x="55" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" target="zk757PVJUXh3gqD9kdrg-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="180" as="sourcePoint" />
+            <mxPoint x="580" y="179.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-14" parent="1" style="html=1;whiteSpace=wrap;fontSize=12;fontStyle=1" value="work/{name}/{taskname}&lt;br&gt;e.g. work/mary/bankform" vertex="1">
+          <mxGeometry height="40" width="180" x="340" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-15" parent="1" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=12;" value="1) New task - Bank Form" vertex="1">
+          <mxGeometry height="26" width="200" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-17" parent="1" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=13;" value="git checkout develop&lt;br&gt;&lt;div&gt;git checkout -b work/{name}/{feature}&lt;/div&gt;&lt;div&gt;e.g.&amp;nbsp;&lt;/div&gt;&lt;div&gt;git checkout -b work/mary/bankform&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="280" x="585" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-19" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;div&gt;push 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="110" x="340" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-20" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;div&gt;push 2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="110" x="340" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-22" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;div&gt;push 3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="110" x="340" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-23" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;div&gt;Complete!&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="110" x="340" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="420" as="sourcePoint" />
+            <mxPoint x="660" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-26" parent="1" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=12;" value="&lt;div&gt;2) Finish code&lt;/div&gt;&lt;div&gt;merge one &#39;commit&#39; to &#39;feature&#39; branch&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="80" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="350" as="sourcePoint" />
+            <mxPoint x="680" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-29" parent="1" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=12;" value="&lt;div&gt;git reset --soft develop&lt;br&gt;or&lt;br&gt;rebase from develop&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="56" width="145" x="740" y="302" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-31" parent="1" style="text;align=left;fontStyle=1;verticalAlign=top;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=13;" value="&lt;div&gt;[merge all logs into ONE commit]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;git checkout -b feature/{taskname}&lt;/div&gt;&lt;div&gt;e.g.&amp;nbsp;&lt;/div&gt;&lt;div&gt;git checkout -b feature/bankform&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[merge to feature - method 1]&lt;/div&gt;&lt;div&gt;git reset --soft develop&lt;/div&gt;&lt;div&gt;git commit -m &quot;Bank Form completed&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[merge to feature - method 2]&lt;/div&gt;&lt;div&gt;git merge --squash work/{name}/{taskname}&lt;/div&gt;&lt;div&gt;git commit -m &quot;Bank Form completed&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="225" width="260" x="380" y="352.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="510" as="sourcePoint" />
+            <mxPoint x="930" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-33" parent="1" style="text;align=left;fontStyle=1;verticalAlign=top;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=13;" value="&lt;div&gt;[merge to develop with trace pointer]&lt;/div&gt;&lt;div&gt;(merge using no fast-forward)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;git checkout develop&lt;/div&gt;&lt;div&gt;git merge --no-ff feature/{taskname} -m &quot;Merge latest Bankform code&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="685" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="670" as="sourcePoint" />
+            <mxPoint x="1080" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zk757PVJUXh3gqD9kdrg-37" parent="1" style="text;align=left;fontStyle=1;verticalAlign=top;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=13;" value="&lt;div&gt;(merge using no fast-forward)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;git checkout develop&lt;/div&gt;&lt;div&gt;git merge --no-ff feature/{taskname}&lt;/div&gt;&lt;div&gt;&amp;nbsp; -m &quot;Merge Bankform from develop&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="240" x="846" y="575" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
